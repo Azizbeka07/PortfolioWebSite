@@ -13,9 +13,9 @@ const Header = () => {
         <S.Header>
         <Image src={Logo} alt="img" />
         <S.HeaderNavbar>
-          <S.HeaderLink>Home</S.HeaderLink>
-          <S.HeaderLink>AboutMe</S.HeaderLink>
-          <S.HeaderLink>Portfolio</S.HeaderLink>
+          <S.HeaderLink href="/" >Home</S.HeaderLink>
+          <S.HeaderLink href="/About" >AboutMe</S.HeaderLink>
+          <S.HeaderLink href="/Portfolio" >Portfolio</S.HeaderLink>
         </S.HeaderNavbar>
         </S.Header>
       </Container>

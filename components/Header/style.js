@@ -15,17 +15,12 @@ const HeaderNavbar = styled.ul`
   column-gap: 15px;
 `;
 
-const HeaderLinkItem = styled.li`
-  
-`;
 
-const HeaderLink = styled.li`
+const HeaderLink = styled.a`
   color: white;
   font-size: 19px;
   font-weight: 400;
   line-height: 24.74px;
-  margin-bottom: 10px;
 `;
-
 
 export { HeaderWrapper, HeaderLink, HeaderNavbar, Header };
